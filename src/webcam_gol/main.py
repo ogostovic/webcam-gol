@@ -90,7 +90,7 @@ def main():
     screen = pygame.display.set_mode((WINDOW_SIZE + 250, WINDOW_SIZE))
     pygame.display.set_caption("Webcam → Game of Life")
     clock = pygame.time.Clock()
-    font = pygame.font.SysFont('sans-serif', 16)
+    font = pygame.font.SysFont(None, 16)
 
     # webcam settup
     cap = cv2.VideoCapture(0)

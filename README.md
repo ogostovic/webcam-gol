@@ -30,6 +30,7 @@ Run the program:
 ```bash
 poetry run webcam-gol
 ```
+Note: The first run may take longer because Python needs to load and initialize some large native libraries and their dependencies. Subsequent runs are much faster thanks to OS-level caching and precompiled bytecode.
 
 ### Controls
 
