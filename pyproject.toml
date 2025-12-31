@@ -8,10 +8,16 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "scipy (>=1.16.3,<2.0.0)",
+    "opencv-python (>=4.12.0.88,<5.0.0.0)",
+    "pygame-ce (>=2.5.6,<3.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "webcam_gol", from = "src"}]
+
+[project.scripts]
+webcam-gol = "webcam_gol.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
