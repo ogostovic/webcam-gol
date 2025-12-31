@@ -15,6 +15,7 @@ The program captures your webcam feed, converts it to a binary grid based on bri
 
 
 ### Prerequisites
+
 - Python 3.14 or higher
 - Poetry 2.2.1 or higher
 - A working webcam
@@ -30,7 +31,7 @@ Run the program:
 ```bash
 poetry run webcam-gol
 ```
-Note: The first run may take longer because Python needs to load and initialize some large native libraries and their dependencies. Subsequent runs are much faster thanks to OS-level caching and precompiled bytecode.
+**Note:** The first run may take longer because Python needs to load and initialize some large native libraries and their dependencies. Subsequent runs are much faster thanks to OS-level caching and precompiled bytecode.
 
 ### Controls
 
